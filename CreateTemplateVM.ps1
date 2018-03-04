@@ -27,7 +27,7 @@ SOFTWARE.
 $vmName = "W2k16Template"; 
 
 # Enter the local admin password for the VM below
-$localAdminPassword = "E5t31r0";
+$localAdminPassword = "Your_Local_Admin_Password_Here";
 
 # Get the IP address of the machine
 $ip = (Get-VM -Name $vmName | Select-Object -ExpandProperty NetworkAdapters).IPAddresses[0]; # Not great, but it seems to do the trick
